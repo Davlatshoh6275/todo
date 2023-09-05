@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-
     <div class="conteiner">
-        <div class="todo">
-            <h2> To-Do List  <img src="./style/images/icon.png" alt="img"></h2>
-            <div class="row">
-                <input type="text" id="inputBox" placeholder="Add your text" >
-                <button onclick="addTask()" >Add</button>
-            </div>
-            <ul id="listConteiner" >
-                <!-- <li class="checked" >task 1</li>
-                <li>task 1</li>
-                <li>task 1</li>
-                <li>task 1</li> -->
-            </ul>
+      <div class="todo">
+        <h2>To-Do List <img src="./style/images/icon.png" alt="img" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            id="inputBox"
+            placeholder="Add your text"
+            value=""
+          />
+          <button onclick="addTask()">Add</button>
         </div>
+        <ul id="listConteiner">
+            <li id="count" >1</li>
+        </ul>
+      </div>
     </div>
 
     <script src="./main.js"></script>
